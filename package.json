@@ -1,5 +1,5 @@
 {
-  "name": "bun-auth",
+  "name": "@developbharat/bun-auth",
   "version": "1.0.0",
   "type": "module",
   "private": false,
