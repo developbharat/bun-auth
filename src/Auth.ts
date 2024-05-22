@@ -3,7 +3,7 @@ import { AuthException } from './common/AuthException';
 import { Random } from './common/Random';
 import { AuthPasscodeMode, AuthUidMode } from './common/enums';
 import { IAuthService } from './contracts/IAuthService';
-import BlankAuthService from './services/BlankAuthService';
+import { BlankAuthService } from './services/BlankAuthService';
 import { IUserAccountRole } from './contracts/IUserAccount';
 
 export interface IAuthInitOptions {
