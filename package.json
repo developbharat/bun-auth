@@ -1,0 +1,60 @@
+{
+  "name": "bun-auth",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "dev": "bun run --watch src/index.ts"
+  },
+  "module": "src/index.ts",
+  "dependencies": {
+    "nanoid": "^5.0.7"
+  },
+  "peerDependencies": {
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "/",
+    "url": "https://github.com/developbharat/bun-auth"
+  },
+  "bugs": {
+    "email": "care@developbharat.com",
+    "url": "https://github.com/developbharat/bun-auth/issues"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "author": {
+    "email": "care@developbharat.com",
+    "name": "Jayant Malik",
+    "url": "https://github.com/devjayantmalik"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "bracketSpacing": true,
+    "bracketSameLine": true,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "quoteProps": "consistent",
+    "useTabs": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "semi": true,
+    "singleAttributePerLine": false,
+    "proseWrap": "preserve"
+  },
+  "keywords": [
+    "bun",
+    "next",
+    "elysiajs",
+    "authentication",
+    "authorization",
+    "mobile otp",
+    "magic link"
+  ]
+}
